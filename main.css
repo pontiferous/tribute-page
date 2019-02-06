@@ -1,8 +1,7 @@
-main {
+header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: auto;
 }
 
 #img-div, #img-caption {
