@@ -1,0 +1,16 @@
+#img-div, #img-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+#div {
+display: flex;
+justify-content: center;
+align-items:center;
+}
