@@ -1,7 +1,6 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <style>
-
-  header {
+  header, a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,11 +10,12 @@
     max-width: 100%;
   }
 
-  #img-div, #img-caption {
+  #img-div, #img-caption, #content{
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
+    flex-direction: column;
   }
 
   #div {
@@ -23,14 +23,13 @@
   justify-content: center;
   align-items:center;
   }
-
 </style>
-
 <main id="main">
 
   <header id="title">Mary Genevieve Gaudron QC</header>
   <div id="img-div">
     <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Gaudron%2C_Gillard%2C_Bryce%2C_Roxon_after_swearing-in_ceremony.jpg" id="image">
+
     <p id="img-caption">Mary Gaudron (left) with PM Julia Gillard, GG Quentin Bryce, AG Nicola Roxon in 2011</p>
   </div>
 
